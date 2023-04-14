@@ -1,0 +1,15 @@
+#To round down to the nearest number, asks for inputs (PowerShell) by Riley Savoie (W0467358)
+[int]$num1 = Read-Host "Enter first number"
+[int]$num2 = Read-Host "Enter second number"
+#Lowest result reounded down for addition
+Write-Host "Addition"
+([Math]::Floor($num1+$num2))
+#Lowest result reounded down for subtraction
+Write-Host "Subtraction"
+([Math]::Floor($num1-$num2))
+#Lowest result reounded down for division
+Write-Host "Division"
+([Math]::Floor($num1/$num2))
+#Lowest result reounded down for multiplication
+Write-Host "Multiplication"
+([Math]::Floor($num1*$num2))

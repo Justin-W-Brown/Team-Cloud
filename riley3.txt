@@ -1,0 +1,4 @@
+#To the Power of, asks for inputs (PowerShell) by Riley Savoie (W0467358)
+[int]$num1 = Read-Host "Enter number"
+[int]$num2 = Read-Host "Enter the number you want it to be to the power of"
+([Math]::pow($num1,$num2))

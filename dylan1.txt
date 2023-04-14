@@ -1,0 +1,4 @@
+#Multiplication, asks for inputs (PowerShell) by Riley Savoie (W0467358)
+[int]$num1 = Read-Host "Enter first number"
+[int]$num2 = Read-Host "Enter second number"
+$num1 * $num2
