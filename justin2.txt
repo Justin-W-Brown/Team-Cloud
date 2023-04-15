@@ -13,3 +13,17 @@ Write-Host "Division"
 #Lowest result reounded down for multiplication
 Write-Host "Multiplication"
 ([Math]::Floor($num1*$num2))
+
+
+#Division, asks for inputs (PowerShell) by Dylan White (W0471101)
+
+[int]$num3 = Read-Host "Enter first number"
+[int]$num4 = Read-Host "Enter second number"
+
+function Division($first, $second) {
+    return $first / $second
+}
+
+$result = Division $num3 $num4
+
+Write-Host $result

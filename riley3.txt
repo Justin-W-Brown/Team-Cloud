@@ -2,3 +2,16 @@
 [int]$num1 = Read-Host "Enter number"
 [int]$num2 = Read-Host "Enter the number you want it to be to the power of"
 ([Math]::pow($num1,$num2))
+
+#Get the highest number from a range, asks for inputs (PowerShell) by Dylan White (W0471101)
+
+[int]$num3 = Read-Host "Enter starting number in range"
+[int]$num4 = Read-Host "Enter ending number in range"
+
+function MaxValue($starting, $ending) {
+    return [System.Math]::Max($starting, $ending)
+}
+
+$result = MaxValue($num3, $num4)
+
+Write-Host $result

@@ -2,3 +2,16 @@
 [int]$num1 = Read-Host "Enter first number"
 [int]$num2 = Read-Host "Enter second number"
 $num1 * $num2
+
+#Addition, asks for inputs (PowerShell) by Dylan White (W0471101)
+
+[int]$num3 = Read-Host "Enter first number"
+[int]$num4 = Read-Host "Enter second number"
+
+function Addition($first, $second) {
+    return $first + $second
+}
+
+$result = Addition $num3 $num4
+
+Write-Host $result
