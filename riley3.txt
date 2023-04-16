@@ -15,3 +15,11 @@ function MaxValue($starting, $ending) {
 $result = MaxValue($num3, $num4)
 
 Write-Host $result
+
+
+Justin's Contribution:
+
+Function Average Math ($num1, $num2){
+	return $num1 + $num2 | Measure-Object -Average
+
+}

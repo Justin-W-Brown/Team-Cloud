@@ -27,3 +27,8 @@ function Division($first, $second) {
 $result = Division $num3 $num4
 
 Write-Host $result
+
+Justin's contribution:
+Function Mod($divisor, $divisible){
+	return $divisor % $divisible
+}
